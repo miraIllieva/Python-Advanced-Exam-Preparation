@@ -19,7 +19,7 @@ while packages and couriers:
         packages[-1] -= couriers.popleft()
         total_deliver += current_couriers
 
-print(f"Total weight {total_deliver} kg")
+print(f"Total weight: {total_deliver} kg")
 
 if not packages and not couriers:
     print(f"Congratulations, all packages were delivered successfully by the couriers today.")
